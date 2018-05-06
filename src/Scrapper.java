@@ -21,9 +21,11 @@ public class Scrapper {
 	public static void main(String[] args) {
 		
 			        ScrapperNode node=new ScrapperNode();
-			        //node.setUrl("http://localhost:8000/root.html");
-			        node.setUrl("http://www.shmdegreecollege.in/");
-			        boolean checkDepth = doScrapping(node,2,0);
+			        //node.setUrl("http://www.shmdegreecollege.in/");
+			        String rootUrl = "http://localhost:8000/root.html";
+			        int depth = 2;
+			        node.setUrl(rootUrl);
+			        boolean checkDepth = doScrapping(node,depth,0);
 			        
 			        if(checkDepth){
 			        	System.out.println("Data populated");
