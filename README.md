@@ -2,15 +2,15 @@
 WebScrapper using Jsoup library
 
 The web scrapper will be given the following inputs:
-•	URL
-•	Depth Level
+1.	URL
+2.	Depth Level
  
 The web scrapper should scrape the given website to the provided depth and maintaining the hierarchy.
 Example: 
-•	Consider example.com as depth level zero
-•	Now the page received at example.com contains 3 more URL then these URL will be considered as depth level 1.
-•	If any of the above 3 contain any URLs then these will be considered as depth level 2.
-•	And so on.
+1.	Consider example.com as depth level zero
+2.	Now the page received at example.com contains 3 more URL then these URL will be considered as depth level 1.
+3.	If any of the above 3 contain any URLs then these will be considered as depth level 2.
+4.	And so on.
 
 
 Steps to run test :- 
